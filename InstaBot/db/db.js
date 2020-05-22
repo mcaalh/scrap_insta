@@ -3,7 +3,7 @@ const config = require("./../config/db_config");
 
 firebase.initializeApp({
     credential: firebase.credential.cert(config),
-    databaseURL: 'https://insta-scrap-87aee.firebaseio.com'
+    databaseURL: 'https://insta-bot.firebaseio.com'
 });
 let database = firebase.database();
 
